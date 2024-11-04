@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>date of birth</title>
+    <style>
+
+#upload-file {
+        display: none ;
+    }
+
+
+    .upload-btn {
+        display: inline-block;
+        padding: 5px 6px;
+        color: white;
+        background-color: #6a1c89;
+        border-radius: 2px;
+        cursor: pointer;
+        font-size: 10px;
+        text-align: center;
+        transition: background-color 0.3s;
+    }
+
+    .upload-btn:hover {
+        background-color: #6a1c89;
+    }
+
+    </style>
+    
+</head>
+<body>
+    <div class="registration-form">
+          <form action="/DOB" method="POST">
+              <div class="user-details">
+    
+    <div class="input-box">
+        <label for="dob">Date of Birth</label>
+        <input type="date" id="dob" name="dob" max="2004-11-02" required>
+    </div>
+    <div>
+
+
+    <div class="input-box">
+        <label for="upload-file" class="upload-btn">Upload File</label>
+        <input type="file" id="upload-file" />
+    </div>
+    </body>
+    </html>
+
